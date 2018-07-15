@@ -16,4 +16,30 @@
 >
 > https://mp.weixin.qq.com/s/S70axql6T4faih8QNGmVvg
 >
-> 
+
+
+
+## undo/redo
+
+在数据库系统中，既有存放数据的文件，也有存放**日志**的文件。存放**日志**的文件，即undo和redo文件。
+
+
+
+> ### 用途
+
+- undo：是为了实现事务的原子性。在MySQL数据库InnoDB存储引擎中，还用Undo Log来实现多版本并发控制（简称：MVCC）。
+
+  
+
+- redo：
+
+
+
+> ### 实现方式
+
+
+
+
+
+
+
