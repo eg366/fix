@@ -1,0 +1,10 @@
+﻿#python
+__pycache__/
+
+#java
+*.class
+
+
+#ide
+.idea/
+.iml
